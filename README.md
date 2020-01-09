@@ -190,46 +190,26 @@ startSerialLocation() {
 --|:--:|--:
 successCallback|funtion|回调函数
 failedCallback|funtion|回调函数
+ages|json|回调参数
 
+### ages参数
 
+参数|说明
+--|:--:
+accuracy|水平精度
+adcode|邮编
+address|具体地址
+city|城市
+citycode|国家编码
+country|国家
+district|区域
+latitude|经度
+longitude|纬度
+poi|地址名称
+province|省
+status|是否成功
+type|""
 
-
-
-
-
-
-
-获得定位信息，返回JSON格式数据:
-
-```
-{
-  accuracy: 水平精度
-
-  adcode: 邮编
-
-  address: 具体地址
-
-  city: 城市
-
-  citycode: 国家编码
-
-  country: 国家
-
-  district: 区域
-
-  latitude: 经度
-
-  longitude: 纬度
-
-  poi: 地址名称
-
-  province: 省
-
-  status: 是否成功
-
-  type: ""
-}
-```
 
 #### 4.Ionic4使用方法
 ```typescript
